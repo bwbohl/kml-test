@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>Euerdorf – Wassertretbecken</name>
+        <Style id="icon-ba-routing-destination">
+            <IconStyle>
+                <color>ffd18802</color>
+                <scale>1</scale>
+                <Icon>
+                    <href>https://geoportal.bayern.de/bayernatlas/5f913d40d/img/ba-routing-destination.svg</href>
+                </Icon>
+                <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+            </IconStyle>
+            <LabelStyle>
+                <scale>0</scale>
+            </LabelStyle>
+            <BalloonStyle>
+                <text><![CDATA[<h3>$[name]</h3>]]></text>
+            </BalloonStyle>
+        </Style>
+        <StyleMap id="euerdorf-wassertretbecken">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#icon-ba-routing-destination</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#icon-ba-routing-destination</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Placemark>
+            <name>Euerdorfer Wassertretbecken</name>
+            <styleUrl>#icon-ba-routing-destination</styleUrl>
+            <Point>
+                <coordinates>10.02440,50.15051,0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
